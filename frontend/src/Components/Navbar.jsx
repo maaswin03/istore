@@ -15,7 +15,7 @@ function Navbar() {
                         <ul>
                             <li><Link to='/'>Home</Link></li>
                             <li><Link to='/products'>Recent product</Link></li>
-                            <li><a href=''>Contact</a></li>
+                            <li><Link to='/contactus'>Contact</Link></li>
                             <li><a href=''>About</a></li>
                         </ul>
                     </div>

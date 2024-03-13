@@ -421,3 +421,65 @@ body{
 .Products5 button:hover{
     opacity: 0.9;
 }
+
+
+
+/*-------------------Signin PAGE CSS------------------*/
+
+.signin1{
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.signin2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.signin2 form{
+    justify-content: center;
+}
+
+.signin2 h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.signin2 input{
+    width: 70%;
+    height: 35px;
+    margin-bottom: 3%;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    padding-left: 5%;
+    font-size: 15px;
+    font-family: poppins;
+}
+
+.signin2 button{
+    width: 40%;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #3858D6;
+    border: none;
+    font-family: poppins;
+
+}
+
+.signin2 input[type="checkbox"]{
+    width: 20px;
+    margin-top: 3%;
+}
+
+.signin3{
+    display: flex;
+    justify-content: center;
+
+}
+
+#signin4{
+    margin-top: 0px;
+}

@@ -1,0 +1,216 @@
+/*-------------------Contact US CSS-------------------*/
+
+.contact1{
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid white;
+    margin-top: 0;
+}
+
+.contact1 h3{
+    color: rgb(0, 0, 0);
+    margin-bottom: 1%;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contact2{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    column-gap: 3%;
+}
+
+.contact3{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.contact10{
+    width: 60%;
+}
+
+.contact3 h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.contact3 button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: poppins;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    margin-bottom: 3%;
+}
+
+.contact4{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact5{
+    margin: auto;
+    width: 90%;
+    margin-bottom: 3%;
+}
+
+.contact5 h3{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.contact5 p{
+    color: black;
+}
+
+.contact5 a{
+    text-decoration: none;
+}
+
+
+
+/*-------------------PROFILE CSS-------------------*/
+
+.profile1{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid rgb(171, 171, 171);
+}
+
+.profile2{
+    width: 50%;
+}
+
+.profile2 h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.profile3 a{
+    text-decoration: none;
+}
+.profile3{
+    text-align: end;
+}
+
+.profile4{
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.profile4 h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.profile10{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.profile5{
+    width:80%;
+    margin: auto;
+    display: inline;
+}
+
+.profile6{
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    display: flex;
+    column-gap: 3%;
+}
+
+.profile8{
+    width: 25%;
+    margin-bottom: 3%;
+}
+
+.profile8 h2{
+    font-weight: 600;
+    font-size: 25px
+}
+
+.profile8 h3{
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.profile8 p{
+    margin-top: 2%;
+}
+
+.profile9{
+    width: 70%;
+}
+.profile9 img{
+    margin-left:25% ;
+}
+
+
+.profile11{
+    width: 100%;
+    background-color: white;
+    padding: 2% 0 2% 0;
+}
+
+.profile12{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.profile13{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(154, 154, 154);
+    border-radius: 15px;
+}
+
+.profile13 img{
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.profile15{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    column-gap: 5%;
+}
+
+.profile16{
+    width: 35%;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
