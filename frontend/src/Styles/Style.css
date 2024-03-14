@@ -57,7 +57,7 @@ body {
     align-items: center;
 }
 
-.nav4 i{
+.nav4 a{
     margin-right: 8%;
 }
 
@@ -179,7 +179,7 @@ body {
 }
 
 .home9{
-    width: 30%;
+    width: 20%;
     margin: auto;
     background-color: white;
     padding: 20px;

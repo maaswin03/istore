@@ -26,7 +26,7 @@ function Contact() {
                 <div className='contact5'>
                     <h3>Apple Support on YouTube</h3>
                     <p>Check out our official YouTube channel to help you get the most from your Apple devices and services.</p>
-                    <p><a href="">Visit Apple Suppor on YouTube &gt;</a></p>
+                    <p><a href="https://www.youtube.com/applesupport" target='_blank'>Visit Apple Suppor on YouTube &gt;</a></p>
                     <img src={image2} width='100%' height='100%' style={{borderRadius:'15%'}}/>
                 </div>
             </div>

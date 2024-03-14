@@ -20,9 +20,9 @@ function Navbar() {
                         </ul>
                     </div>
                     <div className='nav3 nav4'>
-                        <i class="fa fa-search" style={{ fontSize: '25px', color: 'white' }}></i>
-                        <i class="fa fa-user" style={{ fontSize: '25px', color: 'white' }}></i>
-                        <i class="fa fa-shopping-cart" style={{ fontSize: '25px', color: 'white' }}></i>
+                        <Link to="/profile"><i class="fa fa-search" style={{ fontSize: '25px', color: 'white' }}></i></Link>
+                        <Link to="/profile"><i class="fa fa-user" style={{ fontSize: '25px', color: 'white' }}></i></Link>
+                        <Link to="/cart"><i class="fa fa-shopping-cart" style={{ fontSize: '25px', color: 'white' }}></i></Link>
                     </div>
                 </div>
             </div>

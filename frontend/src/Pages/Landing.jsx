@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Navbar from '../Components/Navbar'
 import image from '../Image/images.jpg'
 import iphone15 from '../Image/iphone15.png'
@@ -45,7 +46,7 @@ function Landing() {
                         <img src={iphone15} />
                         <div className='home11'>
                             <p>From ₹21483.00/mo. with instant savings and No Cost EMI or ₹134900.00</p>
-                            <button>Buy</button>
+                            <button><Link to="/products" style={{color:'white',textDecoration:'none'}}>Buy</Link></button>
                         </div>
                     </div>
                     <div className='home9'>
@@ -53,7 +54,7 @@ function Landing() {
                         <img src={iphone14} />
                         <div className='home11'>
                             <p>From ₹10983.00/mo. with instant savings and No Cost EMI or ₹69900.00</p>
-                            <button>Buy</button>
+                            <button><Link to="/products" style={{color:'white',textDecoration:'none'}}>Buy</Link></button>
                         </div>
                     </div>
                     <div className='home9'>
@@ -61,7 +62,7 @@ function Landing() {
                         <img src={iphone13} style={{ marginTop: '10%' }} />
                         <div className='home11'>
                             <p>From ₹9483.00/mo. with instant savings and No Cost EMI or ₹59900.00</p>
-                            <button>Buy</button>
+                            <button><Link to="/products" style={{color:'white',textDecoration:'none'}}>Buy</Link></button>
                         </div>
                     </div>
                     <div className='home9'>
@@ -69,7 +70,7 @@ function Landing() {
                         <img src={se} style={{ marginTop: '10%' }} />
                         <div className='home11'>
                             <p>From ₹7983.00/mo. with instant savings and No Cost EMI or ₹49900.00</p>
-                            <button>Buy</button>
+                            <button><Link to="/products" style={{color:'white',textDecoration:'none'}}>Buy</Link></button>
                         </div>
                     </div>
                 </div>
@@ -128,7 +129,7 @@ function Landing() {
                             <h2>iPhone 15 Pro</h2>
                             <h3>Titanium</h3>
                             <span style={{ color: 'white' }}>From ₹21483.00/mo. or ₹134900.00*</span><br></br>
-                            <button>buy</button><br></br>
+                            <button><Link to="/products" style={{color:'white',textDecoration:'none'}}>Buy</Link></button><br></br>
                             <p><a href="">Learn More &gt;</a></p>
                         </div>
                     </div>
@@ -144,7 +145,7 @@ function Landing() {
                     <div className='home21'>
                         <div className='home22'>
                             <span>Get ₹17500.00-₹62300.00 in credit when you trade in iPhone 11 or higher.6</span>
-                            <p><a href="">See what your device is worth &gt;</a></p>
+                            <p><Link to="/products">See what your device is worth &gt;</Link></p>
                         </div>
                         <img src={load} />
                     </div>
@@ -152,7 +153,7 @@ function Landing() {
                         <div className='home22' style={{ marginTop: '7%' }}>
                             <span>Pay with 3- or 6-month No Cost EMI.</span>
                             <p style={{ fontSize: '14px' }}>Choose the way that’s right for you.</p>
-                            <p><a href="">Learn more &gt;</a></p>
+                            <p><Link to="/contactus">Learn more &gt;</Link></p>
                         </div>
                         <img src={load1} />
                     </div>
@@ -164,7 +165,7 @@ function Landing() {
                     <div className='home22' style={{ marginTop: '7%' }}>
                         <span>Why Apple is the best place to buy iPhone.</span>
                         <p style={{ fontSize: '11px' }}>You can choose a payment option that works for you, pay less with a trade‑in, connect your new iPhone to your carrier and get set up quickly. You can also chat with a Specialist anytime.</p>
-                        <p><a href="">Learn more &gt;</a></p>
+                        <p><Link to="/contactus">Learn more &gt;</Link></p>
                     </div>
                 </div>
             </div>

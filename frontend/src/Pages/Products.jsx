@@ -9,6 +9,7 @@ import backcase from '../Image/case.jpeg'
 import wallet from '../Image/wallet.jpeg'
 import case1 from '../Image/case1.jpeg'
 import key from '../Image/key.jpeg'
+import { Link } from 'react-router-dom'
 
 function Products() {
     return (
@@ -24,7 +25,7 @@ function Products() {
                         <img src={iphone15} />
                         <div className='Products5'>
                             <p>From ₹21483.00/mo. with instant savings and No Cost EMI or ₹134900.00</p>
-                            <button>Buy</button>
+                            <button><Link to="/cart" style={{color:'white',textDecoration:'none'}}>Buy</Link></button>
                         </div>
                     </div>
                     <div className='Products4'>
@@ -32,7 +33,7 @@ function Products() {
                         <img src={iphone14} />
                         <div className='Products5'>
                             <p>From ₹10983.00/mo. with instant savings and No Cost EMI or ₹69900.00</p>
-                            <button>Buy</button>
+                            <button><Link to="/cart" style={{color:'white',textDecoration:'none'}}>Buy</Link></button>
                         </div>
                     </div>
                     <div className='Products4'>
@@ -40,7 +41,7 @@ function Products() {
                         <img src={iphone13} />
                         <div className='Products5'>
                             <p>From ₹9483.00/mo. with instant savings and No Cost EMI or ₹59900.00</p>
-                            <button>Buy</button>
+                            <button><Link to="/cart" style={{color:'white',textDecoration:'none'}}>Buy</Link></button>
                         </div>
                     </div>
                     <div className='Products4'>
@@ -48,7 +49,7 @@ function Products() {
                         <img src={se} />
                         <div className='Products5'>
                             <p>From ₹7983.00/mo. with instant savings and No Cost EMI or ₹49900.00</p>
-                            <button>Buy</button>
+                            <button><Link to="/cart" style={{color:'white',textDecoration:'none'}}>Buy</Link></button>
                         </div>
                     </div>
                 </div>
@@ -60,7 +61,7 @@ function Products() {
                         <img src={iphone15} />
                         <div className='Products5'>
                             <p>From ₹21483.00/mo. with instant savings and No Cost EMI or ₹134900.00</p>
-                            <button>Buy</button>
+                            <button><Link to="/cart" style={{color:'white',textDecoration:'none'}}>Buy</Link></button>
                         </div>
                     </div>
                     <div className='Products4'>
@@ -68,7 +69,7 @@ function Products() {
                         <img src={iphone14} />
                         <div className='Products5'>
                             <p>From ₹10983.00/mo. with instant savings and No Cost EMI or ₹69900.00</p>
-                            <button>Buy</button>
+                            <button><Link to="/cart" style={{color:'white',textDecoration:'none'}}>Buy</Link></button>
                         </div>
                     </div>
                 </div>
@@ -80,7 +81,7 @@ function Products() {
                         <img src={iphone13} />
                         <div className='Products5'>
                             <p>From ₹9483.00/mo. with instant savings and No Cost EMI or ₹59900.00</p>
-                            <button>Buy</button>
+                            <button><Link to="/cart" style={{color:'white',textDecoration:'none'}}>Buy</Link></button>
                         </div>
                     </div>
                 </div>
@@ -93,7 +94,7 @@ function Products() {
                         <img src={se} />
                         <div className='Products5'>
                             <p>From ₹7983.00/mo. with instant savings and No Cost EMI or ₹49900.00</p>
-                            <button>Buy</button>
+                            <button><Link to="/cart" style={{color:'white',textDecoration:'none'}}>Buy</Link></button>
                         </div>
                     </div>
                 </div>
